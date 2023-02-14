@@ -162,3 +162,37 @@ a:visited {
   height: 2px;
   background-color: rgb(254, 8, 8);
 }
+
+.info {
+  margin-bottom: 150px;
+}
+.info__wrapper {
+  display: flex;
+}
+.info__img {
+  margin-right: 60px;
+  flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info__list {
+  flex-basis: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info__list:not(:last-child) {
+  margin-bottom: 50px;
+}
+.info__list-item .item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.info__list-item .item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
